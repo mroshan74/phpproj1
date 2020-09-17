@@ -16,9 +16,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo ROOT_URL; ?>shares">Shares</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo ROOT_URL; ?>users">Users</a>
-                </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <?php if(isset($_SESSION['is_logged_in'])) : ?>
@@ -40,6 +37,7 @@
     </nav>
     <div class="container">
         <div class="">
+            <?php Messages::display(); ?>
             <?php require($view); ?>
         </div>
     </div>
