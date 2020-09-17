@@ -17,8 +17,8 @@ class Bootstrap{
             $this -> action = $this -> request['action'];
         }
 
-        echo $this -> controller;
-        echo $this -> action;
+        // echo $this -> controller;
+        // echo $this -> action;
     }
 
     public function createController(){
