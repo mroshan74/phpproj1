@@ -20,7 +20,6 @@
 
     $bootstrap = new Bootstrap($_GET);
     $controller = $bootstrap -> createController();
-    $controller = $bootstrap -> createController();
     if($controller){
         $controller -> executeAction();
     }

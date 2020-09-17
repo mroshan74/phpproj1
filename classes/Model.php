@@ -1,5 +1,4 @@
 <?php
-
 abstract class Model{
     protected $dbh;
     protected $stmt;
